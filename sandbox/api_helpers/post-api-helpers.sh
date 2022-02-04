@@ -1,2 +1,2 @@
 #!/bin/bash
-aws iam create-role --role-name custom
+aws s3api create-bucket --bucket custom
