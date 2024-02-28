@@ -5,5 +5,5 @@ resource "aws_s3_bucket" "sandbox_bucket" {
  bucket = "aft-sandbox-74969021937400000"
   acl    = "private"
 
-provider = aws.af_south_1
+provider = aws.ap_south_1
 }
