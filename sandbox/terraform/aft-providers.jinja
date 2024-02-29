@@ -13,7 +13,7 @@ provider "aws" {
   }
 }
 # Custom provider for 'ap-south-1' region
-{# provider "aws" {
+provider "aws" {
   alias  = "ap_south_1"
   region = "ap-south-1"
   assume_role {
@@ -25,10 +25,10 @@ provider "aws" {
     }
   }
 }
-# Custom provider for 'ap-south-2' region
+# Custom provider for 'af-south-1' region
 provider "aws" {
-  alias  = "ap_south_2"
-  region = "ap-south-2"
+  alias  = "af_south_1"
+  region = "af-south-1"
   assume_role {
     role_arn    = "{{ target_admin_role_arn }}"
   }
@@ -38,4 +38,4 @@ provider "aws" {
     }
   }
 }
- #}
+
